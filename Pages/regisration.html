@@ -1,0 +1,50 @@
+<doctipe html>
+<html>
+    <head>
+        <title>
+            Регистрация
+        </title>
+    </head>
+    <style>
+       body{
+        background-color:rgb(49, 49, 49);
+               color:orange;
+       }
+       .regbox{
+         border:2px solid orange;
+         position: fixed;
+         top:170;
+         left:560;
+         height:400pt;
+         width:300pt;
+         background-color:black;
+         padding:5px;
+         ;
+                }
+                .c{
+                    background-color: rgb(46, 46, 46);
+                    color:rgb(255, 166, 0);
+                    border:1px solid orange;
+                }
+                .a{
+                    background-color: rgb(46, 46, 46);
+                    color:rgb(255, 166, 0);
+                    border:1px solid orange;
+                    position:fixed;
+                    bottom:34;
+                    right:570;
+                }
+    </style>
+    <body>
+     <div class="regbox">
+            <h1 align="center">Регистрация</h1>
+            <form  action="" method="post">
+                   Придумаите логин  <input type="text" class="c" name="login"><br>
+                   Придумайте пароль<input type="password" class="c" name="password"><br>
+                   Напишите о себе<br><textarea align="center" type='textarea' name='comment' id='comment-field' class="c" rows='7' ></textarea><br>
+                    <input type="submit" name="sabmit" class="c" value="Подтвердить">
+            </form>
+             <a class="a"   href="../index/html">Вернутся на главную страницу</a>
+     </div>
+    </body>
+</html>

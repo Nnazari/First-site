@@ -34,13 +34,9 @@
     </style>
     <script>
         function hello(){
+            var username = prompt('Как тебя зовут?');
             alert('Привет,'+ username +'!');
         }
-        
-        var username = prompt('Как тебя зовут?');
-        hello();
-        else{alert('маленький ещё!');}
-        
     </script>
     <body>
     <header>
@@ -60,7 +56,7 @@
                             
                             Логин<input class="c" type="text" name="login"><br>
                             Пароль<input class="c" type="password" name="password"><br>
-                            <input onclick='' class="c" type="submit" name="sabmit" value="Войти">
+                            <input onclick='hello()' class="c" type="submit" name="sabmit" value="Войти">
                                                           
                         </form>
                         <a class="a" href="pages/regisration.html">Регистрация</a>

@@ -8,7 +8,7 @@
     <style>
            body{
                background-color:rgb(49, 49, 49);
-               color:rgb(189, 132, 8);
+               color:rgb(255, 174, 0);
            }
            header{position:fixed;
                  width:617px;
@@ -23,7 +23,30 @@
                     color:rgb(255, 166, 0);
                     border:1px solid orange;
                 }
+            .box{background-color:black;
+            color:rgb(189, 132, 8);
+             border:2px solid orange;
+             position:absolute;
+             right:15px;
+             width:250px;
+             height:400px;
+            }
     </style>
+    <script>
+        function hello(){
+            alert('Привет,'+ username +'!');
+        }
+        function chackahe(age){
+            if(age >12){return true;}
+            else{return false;}
+        }
+        var username = prompt('Как тебя зовут?');
+        hello();
+        var resultage = chackage( +prompt('сколько тебе лет?'));
+        if(resultage){alert('вы можете воити');}
+        else{alert('маленький ещё!');}
+        
+    </script>
     <body>
     <header>
         <table border="2" height="50px" >
@@ -58,6 +81,9 @@
     <div style="position:relative; top:70px;">
         Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>Также вы сможете умтраивать дуели между собои!<br>
         В будушем сайт будет обновлятся что принесет много нововведений.
+    </div>
+    <div class='box'>
+
     </div>
     </body> 
 </html> 

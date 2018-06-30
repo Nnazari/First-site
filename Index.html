@@ -7,20 +7,24 @@
     </head>
     <style>
            body{
-               background-color:rgb(49, 49, 49);
+               background-image:url(imges/mine.jpg);
                color:rgb(255, 174, 0);
            }
            header{position:fixed;
-                 width:617px;
+         
+                 width:490px;
                  background-color: rgb(0, 0, 0);
                  color:rgb(255, 174, 0);
                  z-index:111;
-                 height:120px;
+                 height:20px;
            }
-           .a{color:rgb(255, 174, 0)}
+           .a{background-image:url(imges/for_battons.jpg);
+               color:rgb(255, 174, 0);
+           border:1px solid orange;}
            .c{
                     background-color: rgb(46, 46, 46);
                     color:rgb(255, 166, 0);
+                    padding:5px;
                     border:1px solid orange;
                 }
             .box{background-color:black;
@@ -28,8 +32,8 @@
              border:2px solid orange;
              position:absolute;
              right:15px;
-             width:250px;
-             height:400px;
+             width:100px;
+             height:290px;
             }
     </style>
     <script>
@@ -39,29 +43,13 @@
         }
     </script>
     <body>
-    <header>
-        <table border="2" height="50px" >
-        <tr >
-            <td>
-                <a class="a" href="index.html">Главная Страница</a>
-            </td>
-            <td>
-               <a class="a" href="pages/newsofindex.html">Новости Обновлений</a>
-            </td>
-            <td>
-               <a class="a" href="pages/aboutme.html"> O_Разработчике</a>
-            </td>
-            <td class="a">
-                    <form   align="right" action="index.html" method="post">
-                            
-                            Логин<input class="c" type="text" name="login"><br>
-                            Пароль<input class="c" type="password" name="password"><br>
-                            <input onclick='hello()' class="c" type="submit" name="sabmit" value="Войти">
-                                                          
-                        </form>
-                        <a class="a" href="pages/regisration.html">Регистрация</a>
+    <header>  
+        <a  class="a" href="index.html">Главная Страница</a> 
+        <a  class="a" href="pages/newsofindex.html">Новости Обновлений</a>
+        <a  class="a" href="pages/aboutme.html"> O_Разработчике</a>
+        <a class="a" href="pages/regisration.html">Регистрация</a>
                     
-            </td>
+                    
             
         </tr>
         </table>
@@ -69,7 +57,7 @@
     <h1 style="position:relative; right:-200px;"  align="center">
         Добро пожаловать на закрытую соц-сеть
     </h1>
-    <div style="position:relative; top:70px;">
+    <div style="position:relative; top:10px;">
         Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>Также вы сможете умтраивать дуели между собои!<br>
         В будушем сайт будет обновлятся что принесет много нововведений.
     </div>

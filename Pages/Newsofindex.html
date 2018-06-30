@@ -7,17 +7,20 @@
     </head>
     <style>
             body{
-                background-color:rgb(49, 49, 49);
+                background-image:url(../imges/mine.jpg);
                 color:rgb(189, 132, 8);
             }
-            .menu{position:fixed;
-                 width:617px;
+            header{position:fixed;
+               
+                 width:490px;
                  background-color: rgb(0, 0, 0);
                  color:rgb(255, 174, 0);
                  z-index:111;
-                 height:120px;
+                 height:20px;
            }
-           .a{color:rgb(255, 174, 0)}
+           .a{background-image:url(../imges/for_battons.jpg);
+               color:rgb(255, 174, 0);
+               border:1px solid orange;}
            .dopmenu{
                position:fixed;
                right:15px;
@@ -33,37 +36,17 @@
                 }
     </style>
     <body>
-            <div class="menu">
-                    <table border="2" height="50px" >
-                    <tr >
-                        <td>
-                            <a class="a" href="../index.html">Главная Страница</a>
-                        </td>
-                        <td>
-                           <a class="a" href="newsofindex.html">Новости Обновлений</a>
-                        </td>
-                        <td>
-                           <a class="a" href="aboutme.html"> O_Разработчике</a>
-                        </td>
-                        <td class="a">
-                                <form   align="right" action="index.html" method="post">
-                                        
-                                        Логин<input class="c " type="text" name="login"><br>
-                                        Пароль<input class="c" type="password" name="password"><br>
-                                        <input type="submit" class="c" name="sabmit" value="Войти">
-                                                                      
-                                    </form>
-                                    <a class="a" href="regisration.html">Регистрация</a>
-                                
-                                </td>
-                        
-                    </tr>
-                    </table>
+            <header>
+                        <a class="a" href="../index.html">Главная Страница</a>
+                        <a class="a" href="newsofindex.html">Новости Обновлений</a>
+                        <a class="a" href="aboutme.html"> O_Разработчике</a>
+                        <a class="a" href="regisration.html">Регистрация</a>
+                </header>
                 </div>
                 <h1 align="right">
                     Новости Обновлений
                 </h1>
-                <div style="position:relative; top:70px;">
+                <div style="position:relative; top:20px;">
                     <a name="0.1">Это Версия 0.1!!</a><br>
                     В этои версий пока можно только создавать беседы
                 </div>

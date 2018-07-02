@@ -15,16 +15,38 @@
          position: fixed;
          top:70px;
          left:35%;
-         height:400pt;
+         height:200pt;
          width:300pt;
          background-color:black;
          padding:5px;
          ;
                 }
+                .helpbox{
+                    border:2px solid orange;
+                    position:fixed;
+                    height:70pt;
+                    width:150pt;
+                    background-color:black;
+                    left:35%;
+                    top:360px;
+                }
                 .c{
+                    top:20px;
                     background-color: rgb(46, 46, 46);
                     color:rgb(255, 166, 0);
                     border:1px solid orange;
+                }
+                .c1{
+                    top:20px;
+                    background-color: rgb(46, 46, 46);
+                    color:rgb(255, 166, 0);
+                    border:1px solid orange;
+                    right:3px;
+                }
+                .c1:hover{
+                    background-color:orange;
+                    color:black;
+                    border:1px solid black;
                 }
                 .a{
                     background-color: rgb(46, 46, 46);
@@ -34,16 +56,41 @@
                     left:42%;
                     bottom:14%;
                 }
+                .exit_button{
+                    position:fixed;
+                    top:360px;
+                    border:2px solid orange;
+                    background-color:black;
+                    left:50%;
+                    color:orange;
+                    text-decoration:none;
+                    padding:2px;
+                }
+                .exit_button:hover{
+                    background-color:orange;
+                    color:black;
+                    border:2px solid black;
+                }
         </style>
         <body>
+            <div class="regbox">
             <div>
-            <form   align="right" action="index.html" method="post">
+                <h1 align="center">Подтвердите вашы данные </h1>
+            <form   align="center" action="userpage.html" method="post">
                             
-                    Логин<input class="c" type="text" name="login"><br>
-                    Пароль<input class="c" type="password" name="password"><br>
-                    <input onclick='hello()' class="c" type="submit" name="sabmit" value="Войти">
+                    Логин <input  class="c" type="text" name="login"><br>
+                    Пароль<input  class="c" type="password" name="password"><br>
+                    <input  class="c1" type="submit" name="sabmit" value="Войти">
                                                   
                 </form>
+            </div>
+            </div>
+            <a class="exit_button"  href="../Index.html">Вернутся на главную</a>
+            <div class="helpbox">
+                <div style="padding:10px 40px 40px 8px">
+                    Нужна помошь?<br>
+                    телефон поддержки +7**********
+                </div>
             </div>
             </body>
     </html>

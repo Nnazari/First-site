@@ -38,4 +38,28 @@
              right:15px;
              width:100px;
              height:290px;
+             display:flex;
+             justify-content: space-around;
+             flex-direction: column;
+             
             }
+            .avatar{
+                border:2px solid orange;
+                border-radius:50%;
+                top:70px;
+                width:55px;
+                height:55px;
+                left:34%;
+                margin:3px;
+                z-index:131;
+            }
+            .avatar img{border-radius:50%;
+               max-width:100%;
+                max-width:auto;
+                position:relative;
+        max-height:auto;
+        max-height:105%;
+        size:cover;
+        z-index:130;
+            }
+            

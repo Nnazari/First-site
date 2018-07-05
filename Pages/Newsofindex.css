@@ -1,0 +1,36 @@
+body{
+    background-image:url(../imges/mine.jpg);
+    color:rgb(255, 174, 0);
+    background-size: cover;
+}
+header{position:fixed;
+     display:flex;
+     text-decoration:none;
+     white-space: nowrap;
+     justify-content: space-around;
+     width:550px;
+     background-color: rgb(0, 0, 0);
+     color:rgb(255, 174, 0);
+     z-index:111;
+     height:20px;
+}
+.a{ text-decoration:none;
+   color:rgb(255, 174, 0);
+border:1px solid orange;}
+.a:hover{
+background:orange;
+color:black;
+border:1px solid black;}
+.dopmenu{
+   position:fixed;
+   right:15px;
+   background-color:rgb(0,0,0);
+   color:rgb(255,174,0);
+   border:2px solid rgb(255, 174, 0);
+   padding: 2px;
+}
+.c{
+        background-color: rgb(46, 46, 46);
+        color:rgb(255, 166, 0);
+        border:1px solid orange;
+    }

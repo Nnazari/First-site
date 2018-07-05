@@ -1,63 +1,38 @@
- <DOCTYP HTML>
+ <!DOCTYPE HTML>
 <html>
     <head>
         <title>
         Главная страница
         </title>
     </head>
-    <style>
-           body{
-               background-color:rgb(49, 49, 49);
-               color:rgb(189, 132, 8);
-           }
-           header{position:fixed;
-                 width:617px;
-                 background-color: rgb(0, 0, 0);
-                 color:rgb(255, 174, 0);
-                 z-index:111;
-                 height:120px;
-           }
-           .a{color:rgb(255, 174, 0)}
-           .c{
-                    background-color: rgb(46, 46, 46);
-                    color:rgb(255, 166, 0);
-                    border:1px solid orange;
-                }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script>
+        function hello(){
+            var username = prompt('Ты точно не робот -_-?');
+            alert('ну и ладно,'+ username);
+        }
+    </script>
     <body>
-    <header>
-        <table border="2" height="50px" >
-        <tr >
-            <td>
-                <a class="a" href="index.html">Главная Страница</a>
-            </td>
-            <td>
-               <a class="a" href="pages/newsofindex.html">Новости Обновлений</a>
-            </td>
-            <td>
-               <a class="a" href=""> O_Разработчике</a>
-            </td>
-            <td class="a">
-                    <form   align="right" action="index.html" method="post">
-                            
-                            Логин<input class="c" type="text" name="login"><br>
-                            Пароль<input class="c" type="password" name="password"><br>
-                            <input class="c" type="submit" name="sabmit" value="Войти">
-                                                          
-                        </form>
-                        <a class="a" href="pages/regisration.html">Регистрация</a>
-                    
-            </td>
-            
-        </tr>
-        </table>
+    <header>  
+        <a  class="a" href="index.html">Главная Страница</a> 
+        <a  class="a" href="pages/newsofindex.html">Новости Обновлений</a>
+        <a  class="a" href="pages/aboutme.html"> O_Разработчике</a>
+        <a class="a" href="pages/regisration.html">Регистрация</a>
+        <a class="a" href="pages/Login.html">Войти</a>
     </header>  
-    <h1 style="position:relative; right:-200px;"  align="center">
+    <h1 style="position:relative; right:-200px; top:40px; min-width:max-content;"  align="center">
         Добро пожаловать на закрытую соц-сеть
     </h1>
-    <div style="position:relative; top:70px;">
-        Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>
+    <div style="position:relative; top:30px;">
+        Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>Также вы сможете умтраивать дуели между собои!<br>
         В будушем сайт будет обновлятся что принесет много нововведений.
     </div>
-    </body>
+    <div class='box'>
+        <div ><a href="Pages/userpage.html"><img class="avatar" src="Imges/Avatar-1.jpg"></a>Разработчик</div>
+        <div ><a href="Pages/userpage.html"><img class="avatar" src="Imges/Avatar-2.jpg"></a>Человек-1</div>
+        <div ><a href="Pages/userpage.html"><img class="avatar" src="Imges/Avatar-3.jpg"></a>Человек-2</div>
+
+    </div>
+    </body> 
 </html> 

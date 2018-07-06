@@ -8,9 +8,9 @@
     <style>
            body{
                background-color:rgb(49, 49, 49);
-               color:rgb(189, 132, 8);
+               color:rgb(255, 174, 0);
            }
-           .menu{position:fixed;
+           header{position:fixed;
                  width:617px;
                  background-color: rgb(0, 0, 0);
                  color:rgb(255, 174, 0);
@@ -23,9 +23,27 @@
                     color:rgb(255, 166, 0);
                     border:1px solid orange;
                 }
+            .box{background-color:black;
+            color:rgb(189, 132, 8);
+             border:2px solid orange;
+             position:absolute;
+             right:15px;
+             width:250px;
+             height:400px;
+            }
     </style>
+    <script>
+        function hello(){
+            alert('Привет,'+ username +'!');
+        }
+        
+        var username = prompt('Как тебя зовут?');
+        hello();
+       
+        
+    </script>
     <body>
-    <div class="menu">
+    <header>
         <table border="2" height="50px" >
         <tr >
             <td>
@@ -35,7 +53,7 @@
                <a class="a" href="pages/newsofindex.html">Новости Обновлений</a>
             </td>
             <td>
-               <a class="a" href=""> O_Разработчике</a>
+               <a class="a" href="pages/aboutme.html"> O_Разработчике</a>
             </td>
             <td class="a">
                     <form   align="right" action="index.html" method="post">
@@ -51,13 +69,16 @@
             
         </tr>
         </table>
-    </div>  
+    </header>  
     <h1 style="position:relative; right:-200px;"  align="center">
         Добро пожаловать на закрытую соц-сеть
     </h1>
     <div style="position:relative; top:70px;">
-        Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>
+        Привет друг на этом сайте ты сможеш создать беседу и обшатся со своими друзями в тайне от других людей.<br>Также вы сможете умтраивать дуели между собои!<br>
         В будушем сайт будет обновлятся что принесет много нововведений.
     </div>
-    </body>
+    <div class='box'>
+
+    </div>
+    </body> 
 </html> 

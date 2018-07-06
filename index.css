@@ -6,7 +6,6 @@
            }
            header{position:fixed;
                  display:flex;
-                 
                  white-space: nowrap;
                  justify-content: space-around;
                  width:550px;
@@ -62,4 +61,22 @@
         size:cover;
         z-index:130;
             }
-            
+            @media screen and (max-width:1632px),(min-height:1036px){
+           body{
+               background-image: none;
+               background-color:black;
+            }
+        }
+           @media screen and (max-width:980),(min-height:100){
+               body{
+                background-image: none;
+                background-color:black;
+               }
+               header{position: relative;
+                   flex-direction: column;
+                   left:2px;
+                   background-color: brown;
+                   weight:100px;
+
+               }
+           }
